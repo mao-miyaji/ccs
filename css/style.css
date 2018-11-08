@@ -1,0 +1,39 @@
+/* tooltip */
+.ccs-tooltip {
+    width: 300px;
+}
+.ccs-tooltip-content {
+    padding: 20px;
+    border: 1px solid transparent;
+}
+
+/* DEMO index */
+.element {
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+    border: 1px solid transparent;
+}
+.color1 {
+    background-color: #df64ed;
+    color: #ffffff;
+}
+.color2 {
+    background-color: #007fff;
+    color: #444f5a;
+    border-color: #eee;
+}
+.color3 {
+    background-color: rgb(255, 213, 51);
+    color: rgb(255, 51, 115);
+}
+.color4 {
+    background-color: rgba(73, 171, 56, .26);
+    color: rgb(0, 62, 255);
+    border-color: rgb(180, 0, 255);
+}
+.color5 {
+    background-color: aquamarine;
+    border-color: rgb(255, 51, 51);
+}

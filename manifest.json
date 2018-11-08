@@ -1,0 +1,22 @@
+{
+    "name": "Color Code Sommelier",
+    "manifest_version": 2,
+    "short_name": "CCS",
+    "author": "mao-miyaji",
+    "version": "1.0.0",
+    "description": "表示中のページのHTML要素に適応されているカラーコードが一目でわかるようになります。",
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+    "browser_action": {
+        "default_icon": "image/icon128.png",
+        "icons": {
+            "16": "image/icon16.png",
+            "48": "image/icon48.png",
+            "128": "image/icon128.png"
+        }
+    },
+    "content_scripts": [{
+        "matches": ["http://*/*", "https://*/*"],
+        "js": ["js/jquery-3.3.1.min.js", "js/jquery-ui.min.js", "content.js"],
+        "css": ["css/jquery-ui.min.css", "css/style.css"]
+    }]
+}
