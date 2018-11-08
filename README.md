@@ -15,3 +15,6 @@ ChromeExtensions Color Code Sommelier
 ## How to be ColorCodeSommelier
 
 ページのカラーコードを見たい要素にmouseoverするだけ！！  
+
+DEMOはこちらから！  
+→　https://mao-miyaji.github.io/chrome_ccs/index.html
